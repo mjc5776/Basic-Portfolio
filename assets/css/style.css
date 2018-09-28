@@ -1,0 +1,40 @@
+
+body{
+    background-image: url("/assets/images/crossed_stripes.png");
+}
+
+/* Top navigation bar */
+.navbarTop {
+    overflow:hidden;
+    background-color:#ffffff;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+/*Navbar Links */
+.navbarTop a{
+float: right;
+display: block;
+color: #cccccc;
+text-align: Left;
+padding: 12px 14px;
+font-size: 20px;
+}
+
+.footer{
+    overflow:hidden;
+    background-color:#666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    font-size:10px; 
+    text-align: center; 
+    height:45px;
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-top-color:#4aaaa5;
+    
+   
+}
