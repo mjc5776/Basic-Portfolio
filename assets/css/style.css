@@ -7,37 +7,40 @@ body{
 .navbarTop {
     overflow:hidden;
     background-color:#ffffff;
-   
+    border-color: #cccccc;
+    
 }
 
 /*Navbar Links */
 .navbarTop a{
-float: right;
+
 color: #cccccc;
 margin: 20px 12px 20px 0;
-font-size: 20px;
+font-size: 15px;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color:#4aaaa5;
+font-weight: bold;
+text-decoration: none;
+position:relative;
 }
+ .navbarLinks {
+     float:right;   
+     margin: 25px 100px 0 0 ;
+ }
 
-#name2 {
-    background-color: #4aaaa5;
-    width:160px;
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    height: 300px;
-    margin-top: -50px;
-    margin-left: -100px;
-    color:#ffffff;
-     
-}
+ a:hover {
+     color:#777777;
+ }
+
+
 #name{
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width:160px;
+    width:140px;
     font-size: 22px;
     background-color: #4aaaa5;
     color:#ffffff;
     font-weight: bold;
-    padding: 15px 20px 15px;
+    padding: 15px;
     margin:8px 0 0 180px;
     position: relative;
     float: left;
@@ -55,6 +58,7 @@ font-size: 20px;
 
 hr {
     width:97%;
+    margin:0 15px 30px 15px;
 }
 
 #main {
@@ -82,9 +86,41 @@ hr {
       padding: 5px;
   }
 
+  
+  .placeholder {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin: 0 0 0 20px;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+.imgLabel{
+    position: absolute;
+    top: 85%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background-color:#cccccc;
+    width:200px;
+    height:30px;
+}
+
 .footer{
     overflow:hidden;
     background-color:#666666;
+
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -99,36 +135,53 @@ hr {
 }
 
 .textBox {
-float: left;
-position: relative;
-margin:3px 0 2px 20px;
-width: 910px;
+    float: left;
+    position: relative;
+    margin:3px 0 15px 20px;
+    width: 910px;
+    border-color: #dddddd;
+    height:25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777; 
+    border-style: solid;
 }
 
 .labels{
-float: left;
-position: relative;
-margin:5px 0 0 20px;
-width: 910px;  
+    position: relative;
+    margin:20px 0 0 20px;
+    
+    width: 910px; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
 }
 
 .MsgBox{
-float: left;
-position: relative;
-margin:5px 0 0 20px;
-width: 910px;
-height: 150px;
-word-wrap: break-word;
+    float: left;
+    position: relative;
+    margin:5px 0 0 20px;
+    width: 910px;
+    height: 150px;
+    word-wrap: break-word;
+    color: #777777;
+    border-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
 button{
-float: left;
-position: relative;
-margin:15px 0 0 20px;
-background-color: #4aaaa5;
-color:#ffffff;
-padding:9px;
-width:100px;
-font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+    position: relative;
+    margin:15px 0 0 20px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding:9px;
+    width:100px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #dddddd;
+    color:#4aaaa5;
+    border-color: #dddddd;
 }
