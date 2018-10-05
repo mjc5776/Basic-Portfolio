@@ -1,7 +1,7 @@
 
 body{
     margin:0%;
-    background-image: url("../images/furley_bg.png")
+    background-image: url("../images/furley_bg.png");
     
 }
 
@@ -10,6 +10,7 @@ body{
     overflow:hidden;
     background-color:#ffffff;
     border-color: #cccccc;
+    
     
 }
 
@@ -126,13 +127,13 @@ hr {
 .footer{
     overflow:hidden;
     background-color:#666666;
-
     position: fixed;
     bottom: 0;
     width: 100%;
     color:white;
     font-size:10px; 
-    text-align: center; 
+    text-align: center;
+
     height:45px;
     border-top-width: 8px;
     border-top-style: solid;
@@ -150,12 +151,13 @@ hr {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777; 
     border-style: solid;
+    border-radius: 5px;
 }
 
 .labels{
     position: relative;
     margin:20px 0 0 20px;
-    
+    font-weight: bold;
     width: 910px; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     color: #777777;
@@ -171,7 +173,7 @@ hr {
     color: #777777;
     border-style: solid;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+    border-radius: 5px;
 }
 
 button{
@@ -184,10 +186,15 @@ button{
     width:100px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 130px;
+    height:45px;
 }
 
 button:hover{
     background-color: #dddddd;
     color:#4aaaa5;
     border-color: #dddddd;
+    
 }
